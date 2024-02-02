@@ -116,6 +116,7 @@ section{
     background-position: center;
     align-items: center;
     justify-content: flex-start;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.6);
     
 }
 
@@ -151,7 +152,7 @@ section{
 
 .home-text h1{
 
-    font-size:3rem;
+    font-size:2rem;
     font-weight: 700;
     color: var(--text-color);
     line-height: 1.1;
@@ -163,7 +164,7 @@ section{
 
     color: var(--text-color);
     margin: 0 0 35px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-weight: 700;
     line-height: 1.1;
 
@@ -172,7 +173,7 @@ section{
 .home-text p{
 
     color: var(--second-color);
-    font-size:0.8rem;
+    font-size:0.7rem;
     line-height: 1.8;
     margin-bottom: 40px;
 
@@ -183,6 +184,7 @@ section{
     display: inline-flex;
     align-items: center;
     justify-content: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.7);
 
 }
 
@@ -193,7 +195,7 @@ section{
     background: var(--main-color);
     border-radius: 5px;
     color: var(--text-color);
-    font-size: 1rem;
+    font-size: 0.7rem;
     letter-spacing: 1px;
     font-weight: 600;
     transition: all .45s ease;
@@ -242,8 +244,8 @@ section{
 header.sticky{
 
     background: var(--bg-color);
-    border-bottom: 1px solid #ffffff1a;
     padding: 20px 15%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -258,10 +260,11 @@ header.sticky{
 
 .about-img img{
 
-    max-width: 500;
+    max-width: 300px;
     height: auto;
     width: 80%;
     border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     transition: all .45s ease;
 
 }
@@ -274,14 +277,14 @@ header.sticky{
 
 .about-text h2{
 
-    font-size: var(--h2-font);
+    font-size: 2rem;
     line-height: 1;
 
 }
 
 .about-text h4{
 
-    font-size: 24px;
+    font-size: 1.3rem;
     font-weight: 600;
     color: var(--text-color);
     line-height: 1.7;
@@ -292,7 +295,7 @@ header.sticky{
 .about-text p{
 
     color: var(--second-color);
-    font-size: var(--p-font);
+    font-size: 0.8rem;
     line-height: 1.8;
     margin-bottom: 4rem;
 
@@ -301,6 +304,7 @@ header.sticky{
 .services{
 
     background-color: var(--second-bg-color);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -320,7 +324,7 @@ header.sticky{
 
 .main-text h2{
 
-    font-size: var(--h2-font);
+    font-size: 2rem;
     line-height: 1;
 
 }
@@ -340,6 +344,7 @@ header.sticky{
     background: var(--bg-color);
     padding: 35px 45px;
     border-radius: 8px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4);
     transition: all .45s ease;
 
 }
@@ -353,7 +358,7 @@ header.sticky{
 
 .box h3{
 
-    font-size: 24px;
+    font-size: 1rem;
     font-weight: 600;
     color: var(--text-color);
     margin-bottom: 15px;
@@ -363,7 +368,7 @@ header.sticky{
 .box p{
 
     color: var(--second-color);
-    font-size: 1rem;
+    font-size: 0.8rem;
     line-height: 1.8;
     margin-bottom: 25px;
 
@@ -379,10 +384,11 @@ header.sticky{
 .portfolio-content{
 
     display: grid;
-    grid-template-columns: repeat(auto-fit,  minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit,  minmax(220px, auto));
     align-items: center;
-    gap: 2.5rem;
-    margin-top: 5rem;
+    gap: 2rem;
+    margin-top: 4.5rem;
+    margin-bottom: 70px;
 
 }
 
@@ -392,6 +398,7 @@ header.sticky{
     overflow: hidden;
     border-radius: 8px;
     cursor: pointer;
+    box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.4);
 
 }
 
@@ -427,9 +434,10 @@ header.sticky{
 
 .layer h5{
 
-    font-size: 15px;
+    font-size: 1.1rem;
     font-weight: 600;
     margin-bottom: 15px;
+    padding: 10px;
 
 }
 
@@ -438,6 +446,7 @@ header.sticky{
     color: white;
     font-size: 0.7rem;
     line-height: 1.8;
+    padding: 10px;
 
 }
 
@@ -468,4 +477,153 @@ header.sticky{
 
     height: 100%;
 
+}
+
+.end{
+
+    padding: 20px 15%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1.8rem;
+    background-color: var(--second-bg-color);
+
+}
+.last-text p{
+
+    color: var(--second-color);
+    font-size: 0.8rem;
+
+}
+
+.sub-text{
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+.sub-text h2{
+
+    font-size: 1.7rem;
+    line-height: 1;
+
+}
+
+.contact-icons{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2.5rem;
+
+}
+
+.contact-icons i{
+
+    height: 75px;
+    width: 75px;
+    background: var(--main-color);
+    color: var(--text-color);
+    font-size: 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 40px;
+
+}
+
+@media(max-width:1480px){
+
+    header{
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+
+    header.sticky{
+        padding: 12px 2.5%;
+        transition: .1s;
+    }
+    section{
+        padding: 110px 3% 60px;
+    }
+    .end{
+        padding: 15px 3%;
+    }
+
+}
+
+@media(max-width: 1100px){
+
+    :root{
+        --big-font:4rem;
+        --h2-font:2.5rem;
+        --p-font:1rem;
+        transition: .1s;
+    }
+    .home-text h3{
+        font-size: 2.5rem;
+    }
+    .home{
+        height: 87vh;
+    }
+
+}
+
+@media(max-width: 920px){
+
+    .about{
+        grid-template-columns: 1fr;
+    }
+    .about-img{
+        text-align: center;
+        order: 2;
+    }
+    .about-img img{
+        width: 50%;
+        height: auto;
+        max-width: 100%;
+    }
+
+}
+
+@media(max-width: 840px){
+
+    #menu-icon{
+        display: block;
+    }
+    .navlist{
+        position: absolute;
+        top: -1000%;
+        right: 0;
+        left: 0;
+        display: block;
+        flex-direction: column;
+        flex-direction: var(--bg-color);
+        text-align: center;
+        transition: all .45s ease;
+    }
+    .navlist a{
+        display: block;
+        margin: 20px;
+        font-size: 20px;
+        transition: all .45s ease;
+        color: var(--text-color);
+    }
+    .navlist a:hover{
+        color: var(--main-color);
+    }
+    .navlist a.active{
+        color: var(--text-color);
+    }
+    .navlist.open{
+        top:100%;
+        display: block;
+        text-align: center;
+        background: var(--bg-color);
+        box-shadow: 8px 6px 10px rgba(0, 0, 0, 0.4);
+    }
 }
